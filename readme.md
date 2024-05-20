@@ -4,7 +4,7 @@
 ## Description
 VERSION 2.0 UPDATED WITH NEW FEATURES
 
-The Coolboxx II is a ESP32 based board for temperature monitoring and controlling high current PWM fans in Crypto Rigs and other applications that require high aiflow. The ESP32 based board features the powerful ESP-WROOM-32E module, with integrated WiFi and Bluetooth functionality (BR/EDR/BLE). The proven ESP32-D0WD-V3 chip is designed with TSMC ultra-low power management technology.
+The Coolboxx II is a ESP32 based board for temperature monitoring and controlling high current PWM fans in Crypto Rigs and other applications that require high airflow. The ESP32 based board features the powerful ESP-WROOM-32E module, with integrated WiFi and Bluetooth functionality (BR/EDR/BLE). The proven ESP32-D0WD-V3 chip is designed with TSMC ultra-low power management technology.
 
 The Coolboxx II's plug-n-play software implements communications via the USB-C port to a Crypto Rig's motherboard running mining operating systems such as HiveO and others (please verify if yours is supported). It allows the OS to manually control fan speeds or set the CoolBoxx II in Automatic Mode to allow the Coolboxx II to automatically control the fans with a rig optimized algorithm that maintains desired target temperatures based on GPU temperatures or the temperature of the case using the onboard or attached DS18B20 sensors. It also has an over-temperature alarm function and monitoring actual fan speed and determines the "health" of your fans.
 
