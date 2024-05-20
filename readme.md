@@ -14,7 +14,7 @@ The Coolboxx II's USB-C interface is also used for download of firmware. The boa
 
 The Coolboxx II's has four Molex KK (PC fan style) that has one 5v driven output, one 5v tolerant input, in addition to fan (typ. 12v) power and ground **for 4+ amps per connector and up to 16 amps for all four connectors. It makes it the perfect board for controlling four or more high air flow fans such as the Wathai 12038 (230 CFM) or the Delta QFR1212GHE (250 CFM) to mention a few.
 
-<img src="work/Board1_top.png" width=400> <img src="work/Board1_bot.png" width=400>
+<img src="work/Board1_top.jpg" width=400> <img src="work/Board1_bot.jpg" width=400>
 
 ## Specifications:
 
