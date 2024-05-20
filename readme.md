@@ -70,7 +70,7 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 
 * esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x0 /home/user/coolboxx2-factory.bin  
 
-* While step #5 is running in a second shell every 30 seconds run:  touch /tmp/coolbox_maintenance
+* While running previous command, in a second shell every 30 seconds run:  touch /tmp/coolbox_maintenance
 
 ## Connector to GPIO Mapping.
 
