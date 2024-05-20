@@ -1,4 +1,4 @@
-# VERSION 2.0 UPDATED WITH NEW FEATURES 
+# COOLBOXX II - UPDATED WITH NEW FEATURES 
 ### BUY - https://www.tindie.com/products/34656/
 
 ## Description
