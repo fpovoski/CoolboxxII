@@ -72,6 +72,8 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 
 * While running previous command, in a second shell every 30 seconds run:  touch /tmp/coolbox_maintenance
 
+* coolbox --fan_check
+
 ## Connector to GPIO Mapping.
 
 <img src="work/Board1_bot_r.jpg" width=400>
