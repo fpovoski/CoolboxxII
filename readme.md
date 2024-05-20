@@ -51,9 +51,9 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 
 * For Home Assistant access use encryption key: "itqzvhZMJj8wuTJX0GTOuL/ffESFROzUlmcO0u2+sfo=" 
 
-    * For customization, please contact us.  We are happy to help. 
+* For customization, please contact us.  We are happy to help. 
 
-* Flashing new firmware over USB or over WiFi. To flash the board with new firmware over USB use ESPhome Web Flasher https://web.esphome.io/ with the device powered and connected to Windows or Linux PC. Flashing is not yet supported with HiveOS but is supported by shell commands. For flashing over WiFi access board’s webpage
+* Flashing new firmware over USB or over WiFi. To flash the board with new firmware over USB from a Windows or Linux browser use ESPhome Web Flasher https://web.esphome.io/ with the device powered and connected to Windows or Linux PC. Flashing in HiveOS is supported by shell commands. For flashing over WiFi access board’s webpage.
 ## Updating Firmware from HiveOS Shell over USB
 
 * cd /home/user 
