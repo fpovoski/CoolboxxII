@@ -56,8 +56,6 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 * Flashing new firmware over USB or over WiFi. To flash the board with new firmware over USB from a Windows or Linux browser use ESPhome Web Flasher https://web.esphome.io/ with the device powered and connected to Windows or Linux PC. Flashing in HiveOS is supported by shell commands. For flashing over WiFi access board’s webpage.
 ## Updating Firmware from HiveOS Shell over USB
 
-* cd /home/user 
-
 * mkdir -p /home/user/coolboxx && cd /home/user/coolboxx && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-factory-V1_0.bin && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-firmware.sh && chmod +x ./coolboxx2-firmware.sh && ./coolboxx2-firmware.sh ./coolboxx2-factory-V1_0.bin && cd ../ && rm -rf coolbox
 
 ## Connector to GPIO Mapping.
