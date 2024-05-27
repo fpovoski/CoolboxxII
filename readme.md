@@ -58,21 +58,7 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 
 * cd /home/user 
 
-* apt install python-pip (only need to run once on rig) 
-
-* pip install esptool (only need to run once on rig) 
-
-* wget https://raw.githubusercontent.com/fpovoski/CoolboxxII/coolboxx2-factory.bin 
-
-* echo “123” > /tmp/coolbox_maintenance 
-
-* esptool.py --chip esp32 –port /dev/ttyUSB0 erase_flash 
-
-* esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x0 /home/user/coolboxx2-factory.bin  
-
-* While running previous command, in a second shell every 30 seconds run:  touch /tmp/coolbox_maintenance
-
-* coolbox --fan_check
+* wget
 
 ## Connector to GPIO Mapping.
 
