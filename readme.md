@@ -123,3 +123,4 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 | CONNECTOR | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 | PIN8 |
 | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | P1 | +5V | GND | IO16 | IO17 | IO21 | IO22 | RXD/IO03 | TXD/IO01 |
+| P2 | EN | IO36 | IO26 | 1018 | IO19 | IO23 | IO05 | +3.3V |
