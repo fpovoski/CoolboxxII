@@ -58,7 +58,11 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 
 * cd /home/user 
 
-* wget
+* wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-firmware.sh
+
+* chmod +x coolboxx2-firmware.sh
+
+* 
 
 ## Connector to GPIO Mapping.
 
