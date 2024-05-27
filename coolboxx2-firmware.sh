@@ -21,8 +21,8 @@ firmware_update(){
 	if ! command -v pip &> /dev/null
 	then
 		echo "$(date +"%Y-%m-%d %T") pip could not be found, installing..."
-		apt update > /dev/null
-		apt install python-pip -y > /dev/null
+		apt-get update > /dev/null
+		apt-get install python3-pip -y > /dev/null
 	else
 		echo "$(date +"%Y-%m-%d %T") pip is already installed."
 	fi
