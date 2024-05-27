@@ -12,7 +12,7 @@ The Coolboxx II also performs a "watchdog" function based on a programmed timeou
 
 The Coolboxx II's USB-C interface is also used for download of firmware. The board is flashed with an ESPHome image to allow immediate inclusion into your Crypto Rig, is WiFi enabled and supports OTA programming. It also has headers that allow the use with conventional D1 Mini style daughter boards and is therefore pin compatible with most accessories. **The board has a JST SH connector with I2C or PDM interface and selectable (3.3/5V) power and ground compatible with Adafruit's STEMMA QT/ Sparkfun Qwiic sensors. With an optional JST SH to JST PH cable, it also supports STEMMA and Grove interfaces. On board is a AHT20 temperature and humidity sensor. It also has a 2-pin header for connecting the motherboard's reset pins implementing a watchdog function. It also has two, 3-pin screw connector for one-wire devices, each with 3.3v power and ground.
 
-The Coolboxx II's has four Molex KK (PC fan style) that has one 5v driven output, one 5v tolerant input, in addition to fan (typ. 12v) power and ground **for 4+ amps per connector and up to 16 amps for all four connectors. It makes it the perfect board for controlling four or more high air flow fans such as the Wathai 12038 (230 CFM) or the Delta QFR1212GHE (250 CFM) to mention a few.
+The Coolboxx II's has four Molex KK (PC fan style) that has one 5v driven output, one 5v tolerant input, in addition to fan (typ. 12v) power and ground **for 4+ amps per connector and up to 16 amps for all four connectors.** It makes it the perfect board for controlling four or more high air flow fans such as the Wathai 12038 (230 CFM) or the Delta QFR1212GHE (250 CFM) to mention a few.
 
 <img src="work/Board1_top.jpg" width=400> <img src="work/Board1_bot.jpg" width=400>
 
@@ -56,7 +56,9 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
 * Flashing new firmware over USB or over WiFi. To flash the board with new firmware over USB from a Windows or Linux browser use ESPhome Web Flasher https://web.esphome.io/ with the device powered and connected to Windows or Linux PC. Flashing in HiveOS is supported by shell commands. For flashing over WiFi access board’s webpage.
 ## Updating Firmware from HiveOS Shell over USB
 
-* mkdir -p /home/user/coolboxx && cd /home/user/coolboxx && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-factory-V1_0.bin && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-firmware.sh && chmod +x ./coolboxx2-firmware.sh && ./coolboxx2-firmware.sh ./coolboxx2-factory-V1_0.bin && cd ../ && rm -rf coolbox
+* Open a HiveOS shell, cut, paste and run the following:
+
+* mkdir -p /home/user/coolboxx && cd /home/user/coolboxx && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-factory-V1_0.bin && wget https://github.com/fpovoski/CoolboxxII/raw/main/coolboxx2-firmware.sh && chmod +x ./coolboxx2-firmware.sh && ./coolboxx2-firmware.sh ./coolboxx2-factory-V1_0.bin && cd ../ && rm -rf coolboxx
 
 ## Connector to GPIO Mapping.
 
