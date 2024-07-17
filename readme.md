@@ -2,7 +2,8 @@
 ### BUY - https://www.tindie.com/products/34656/
 
 ## Description
-VERSION 2.0 UPDATED WITH NEW FEATURES
+VERSION 2.0 UPDATED WITH NEW FEATURES.
+MMPOS NOW SUPPORTS COOLBOXX II with agent update.
 
 The Coolboxx II is a ESP32 based board for temperature monitoring and controlling high current PWM fans in Crypto Rigs and other applications that require high airflow. The ESP32 based board features the powerful ESP-WROOM-32E module, with integrated WiFi and Bluetooth functionality (BR/EDR/BLE). The proven ESP32-D0WD-V3 chip is designed with TSMC ultra-low power management technology.
 
@@ -62,7 +63,15 @@ A 3D printed enclosure is also available: https://www.tindie.com/products/34657/
  
 	chmod +x ./program_coolboxx.sh
  
-	./program_coolboxx.sh 
+	./program_coolboxx.sh
+
+* MMPOS support please run:
+
+   	wget https://github.com/fpovoski/CoolboxxII/raw/main/mmpos_agent_update.sh
+
+  	chmod +x ./mmpos_agent_update.sh
+
+  	./mmpos_agent_update.sh
 
 ## Connector to GPIO Mapping.
 
